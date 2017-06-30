@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) throws ParseException{
         CollectionJournal arrayJournal = new CollectionJournal();
         ArrayJournal betta = new ArrayJournal();
-        Record record = new Record(new Date(119,1,1,12,12,12), Importance.Recovery_Normal,"1","bla");
-        Record record1 = new Record(new Date(110,1,1,12,12,12), Importance.Recovery_Normal,"1","bla");
+        Record record = new Record(new Date(119,1,1,12,12,12), Importance.Recovery_Normal,"1","asdf");
+        Record record1 = new Record(new Date(110,1,1,12,12,12), Importance.Recovery_Normal,"1","qwer");
         betta.add(record);
         betta.add(record1);
         System.out.println();
